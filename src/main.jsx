@@ -6,8 +6,8 @@ import Intro from './Intro';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
     <Intro />
-  
-  </React.StrictMode>,
+   
+  </>
 )
