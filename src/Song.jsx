@@ -24,7 +24,7 @@
 //     )
 //   }
 // ParentComponent.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import MusicList from './MusicList';
 
 function Song() {
@@ -42,7 +42,6 @@ function Song() {
 
   return (
     <div>
-      <h1>My Music App</h1>
       <MusicList likedTracks={likedTracks} onLikeToggle={handleLikeToggle} />
     </div>
   );

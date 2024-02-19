@@ -2,9 +2,9 @@ import React from 'react';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
 
 const tracks = [
-  { id: 1, name: 'Telefono', artist: 'PH1', releaseDate: '2020-07-17', cover: 'telefono.jpg' },
-  { id: 2, name: 'Hate You', artist: 'PH1', releaseDate: '2020-08-28', cover: 'hate_you.jpg' },
-  { id: 3, name: 'Malibu', artist: 'PH1', releaseDate: '2019-07-19', cover: 'malibu.jpg' },
+  { id: 1, name: 'Telefono', artist: 'PH1', releaseDate: '2020-07-17', cover: '../../src/assets/telefono.jpg' },
+  { id: 2, name: 'Hate You', artist: 'PH1', releaseDate: '2020-08-28', cover: '../../src/assets/hate_you.jpg' },
+  { id: 3, name: 'Malibu', artist: 'PH1', releaseDate: '2019-07-19', cover: '../../src/assets/malibu.jpg' },
 ];
 
 export default function MusicList({ onLikeToggle, likedTracks }) {
