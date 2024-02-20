@@ -1,5 +1,5 @@
 import React from "react";
-import { ArtistName, Intro, Type } from "../components";
+import { ArtistName, Intro, Type } from "../../components";
 
 function IntroSection() {
   return (
