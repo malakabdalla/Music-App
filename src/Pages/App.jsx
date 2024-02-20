@@ -1,4 +1,4 @@
-//import "./App.css";
+import "./App.css";
 import React from "react";
 import IntroSection from "../Layouts/introSection/IntroSection";
 import { MusicList } from "../Layouts";
