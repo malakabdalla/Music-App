@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MusicList from "./MusicList";
+import MusicList from "../MusicList";
 
 function Song() {
   const [likedTracks, setLikedTracks] = useState([]);
