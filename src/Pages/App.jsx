@@ -1,7 +1,7 @@
 //import "./App.css";
 import React from "react";
-import IntroSection from "./Layouts/introSection/IntroSection";
-import { MusicList } from "./Layouts";
+import IntroSection from "../Layouts/introSection/IntroSection";
+import { MusicList } from "../Layouts";
 
 function App() {
   return (
