@@ -1,5 +1,7 @@
 import React from "react";
 import { ArtistName, Intro, Type } from "../components";
+import CommentForm from "../components/CommentForm/form";
+
 
 function IntroSection() {
   return (
@@ -7,6 +9,7 @@ function IntroSection() {
       <ArtistName />
       <Intro />
       <Type />
+      <CommentForm />
     </React.StrictMode>
   );
 }
