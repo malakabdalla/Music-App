@@ -1,6 +1,6 @@
 //import "./App.css";
 import React from "react";
-import { IntroSection } from "./Layouts/IntroSection";
+import IntroSection from "./Layouts/IntroSection";
 
 function App() {
   return (
