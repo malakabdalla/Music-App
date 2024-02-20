@@ -1,12 +1,12 @@
-import Intro from "./components/Intro/Intro";
-import Song from "./components/Songs/Song";
+//import "./App.css";
+import React from "react";
+import { IntroSection } from "./Layouts/IntroSection";
 
 function App() {
   return (
-    <>
-      <Intro />
-      <Song />
-    </>
+    <React.StrictMode>
+      <IntroSection />
+    </React.StrictMode>
   );
 }
 export default App;
